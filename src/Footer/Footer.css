@@ -1,0 +1,121 @@
+.footer-comp{
+    background: url('../img/bgco.jpg')center center/cover fixed;
+    /* height: 100vh; */
+    color: white;
+    line-height: 31px;
+}
+.quick-link{
+    display: flex;
+}
+
+.nav-list-footer{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.nav-ul-footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 111px;
+    list-style: none;
+    padding-top: 24px;
+}
+.ul-contact-footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 111px;
+    list-style: none;
+    padding-top: 24px;
+}
+.contact-me-on{
+    padding-top: 4px;
+}
+
+.quick-msg-ul{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 111px;
+    list-style: none;
+    padding-top: 24px;
+}
+.button-footer{
+    background-color: #199de4;
+    color: yellow;
+    margin: auto;
+    border: 2px solid yellow;
+    font-weight: bold;
+    padding: 3px 12px;
+    border-radius: 16px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 111px;
+    list-style: none;
+    padding-top: 24px;
+}
+
+.search-box-ul{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 111px;
+    list-style: none;
+    padding-top: 24px;
+
+}
+
+/* media query */
+
+@media (max-width:500px) {
+    .quick-link{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .nav-ul-footer{
+        padding-left: 3%;
+        padding-top: 4%;
+    }
+    .ul-contact-footer{
+        padding-left: 3%;
+        padding-top: 4%;
+    }
+    .quick-msg-ul{
+        padding-left: 3%;
+        padding-top: 4%;
+    }
+    .feedback{
+        padding-left: 3%;
+        padding-top: 4%;
+       max-width: 80%;
+    }
+    .search-box-ul{
+        padding-left: 3%;
+        padding-top: 4%;
+        max-width: 80%;
+    }
+
+    .greed-footer{
+        margin-top: 20%;
+        margin-left: 0%;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #000;
+        text-shadow: 2px 2px 5px yellow;
+    }
+}

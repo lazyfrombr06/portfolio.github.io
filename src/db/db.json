@@ -1,0 +1,46 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "title": "first blog python",
+      "img": "image/img-1.jpg",
+      "body": " please support me as much as you can thankyou verry Much.... ",
+      "author": "-Brajesh"
+    },
+    {
+      "id": 2,
+      "title": "second blog react",
+      "img": "image/img-2.jpg",
+      "body": " please support me as much as you can thankyou verry Much.... ",
+      "author": "-Brajesh"
+    },
+    {
+      "id": 3,
+      "title": "third blog css",
+      "img": "image/img-3.jpg",
+      "body": " please support me as much as you can thankyou verry Much... ",
+      "author": "-Brajesh"
+    },
+    {
+      "id": 4,
+      "title": "fourth blog css",
+      "img": "image/img-4.jpg",
+      "body": "please support me as much as you can thankyou verry Much.... ",
+      "author": "-Brajesh"
+    },
+    {
+      "id": 5,
+      "title": "5th blog css",
+      "img": "image/img-5.jpg",
+      "body": " please support me as much as you can thankyou verry Much.... ",
+      "author": "-Brajesh"
+    },
+    {
+      "id": 6,
+      "title": "6th blog css",
+      "img": "image/img-6.jpg",
+      "body": " please support me as much as you can thankyou verry Much.... ",
+      "author": "-Brajesh"
+    }
+  ]
+}

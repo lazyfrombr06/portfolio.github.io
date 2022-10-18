@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.container {
+    background: url('../../img/bgco.jpg')center center/cover fixed;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+
+.intro {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.intro-text {
+    color: white;
+    display: inline-block;
+    margin-left: 61px;
+    margin-top: 107px;
+    /* border: 2px solid green; */
+    line-height: 60px;
+   
+}
+
+.social-media {
+    position: relative;
+    top: 16%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.social-media-icon {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 3px;
+    margin-top: 3px;
+    margin-left: 6%;
+}
+
+.social-media-icon:hover {
+    color: #fded19;
+    border-radius: 50%;
+    /* text-shadow: 2px 2px 5px yellow; */
+    box-shadow:5px 5px 5px 5px yellow ;
+}
+
+.instagram-icon {
+    margin-left: 4%;
+}
+
+.im {
+    /* color: #199de4; */
+    font-size: 1.4rem;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px red;
+}
+
+.name {
+    margin-left: 22px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px yellow;
+    /* border: 2px solid gray; */
+}
+
+.bio {
+    margin-left: 24px;
+    margin-top: 19px;
+    /* border: 2px solid aqua; */
+    /* color: #199de4; */
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+    text-shadow:2px 2px 3px red;
+}
+
+.img-container img {
+    position: absolute;
+    right: 252px;
+    top: 150px;
+    /* border: 2px solid #fded19; */
+    border-radius: 50%;
+    height: 63%;
+    /* opacity: 0.7; */
+}
+
+.contact-me-home {
+    border: 2px solid #fded19;
+    /* background-color: red; */
+    position: relative;
+    top: 30px;
+    left: 126px;
+    padding: 3px 8px;
+    border-radius: 9px;
+    font-style: normal;
+    font-family: cursive;
+    /* color: white; */
+    color: #fded19;
+}
+.contact-me{
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* font-family: 'Silkscreen', cursive; */
+    /* color: white; */
+    /* text-shadow: 2px 2px 3px red; */
+}
+
+.contact-me-home:hover {
+    background-color: #fded19;
+    color: red;
+}
+
+.red-color{
+    color: green;
+}
+
+.red-color:hover{
+    color: red;
+}
+
+.call-me {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fded19;
+    padding: 6px 20px;
+    margin-left: 6px;
+}
+
+
+/* Media Query  */
+@media (max-width:500px) {
+
+    .container {
+        height: 160vh;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .intro-text {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .img-container img {
+        position: relative;
+        /* bottom: 3%; */
+        left: 10%;
+        max-width: 80%;
+        top: 15px;
+    }
+
+    .home-contact {
+
+        position: relative;
+        /* top: 3px; */
+        left: 0px;
+        padding: 3px 12px;
+        text-align: center;
+        width: 51%;
+        margin: 3px;
+        box-shadow: 4px 0px 4px 1px black;
+    }
+
+
+    .intro-text {
+        margin-left: 11px;
+        margin-top: 107px;
+
+    }
+
+    .name {
+        /* margin-top: 20%; */
+        /* margin-left: 20%; */
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #000;
+        text-shadow: 2px 2px 5px yellow;
+    }
+
+    .social-media {
+        padding-top: 20%;
+    }
+
+    .social-media-icon {
+        padding: 2px;
+        margin-top: 3px;
+        margin-left: 3%;
+    }
+
+
+}

@@ -1,0 +1,43 @@
+.login-component {
+    background: url('../../img/bgco.jpg')center center/cover fixed;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+}
+
+.input-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px auto;
+    padding: 6px 13px;
+    background-color: #00000029;
+    color: yellow;
+    border-radius: 44%;
+    width: 30%;
+    text-align: center;
+    outline: none;
+    /* border: none; */
+    border-left:2px solid yellow;
+    border-right:2px solid yellow;
+
+    
+}
+
+.heading-text{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px yellow;    
+
+}
+
+.Print-button{
+    color: yellow;
+    background-color: black;
+    padding: 5px 17px;
+    border-radius: 11px;
+
+}

@@ -1,0 +1,87 @@
+.blog-component {
+    background: url('../../img/bgco.jpg')center center/cover fixed;
+    /* height: 150vh; */
+    color: white;
+    font-size: 18px;
+    
+   
+
+}
+
+.my-blog-heading{
+    margin-left: 22px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px yellow;
+    
+}
+
+.blog-container{
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.map-full-body{
+    margin: 11px;
+    color: white;
+    /* border: 1px solid rgb(255, 255, 44); */
+    background-color: #0707074f;
+    padding: 19px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.map-full-body:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+.card-heading{
+    color: yellow;
+    /* font-size: 2rem; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8px;
+}
+
+.card-item-body{
+    color: #d0d0d0;
+    font-style: italic;
+    padding-left: 22px;
+    padding-bottom: 12px;
+    /* border: 1px solid skyblue; */
+    margin-top: 22px;
+}
+
+.read-more-button{
+    display: inline-block;
+    position: relative;
+    right: -147px;
+    bottom: -46px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 12px;
+    font-size: 1.1rem;
+}
+
+.read-more-button:hover{
+    color: yellow;
+}
+
+.card-image img{
+    height: 18rem;
+    width: 98%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    border-radius: 11px;
+}
+
+
+
+

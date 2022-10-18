@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+ 
+}
+
+.pnf{
+  background: url('./img/bgco.jpg')center center/cover fixed;
+  height: 55vh;
+  align-items: center;
+  color: yellow;
+  font-weight: 600;
+  text-align: center;
+}
+
